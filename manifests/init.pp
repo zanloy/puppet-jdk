@@ -6,7 +6,7 @@ class jdk {
     provider => rpm,
     ensure => installed,
     install_options => ['--nodeps'],
-    source => "puppet:///modules/jdk/${rpm}",
+    source => "http://zanloy.com/share/${rpm}",
   }
 
 }
